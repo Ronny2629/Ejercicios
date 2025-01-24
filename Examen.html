@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+  <script>
+    
+	//Constantes 
+	
+    const MSG_PREGUNTA = "Pon un numero"
+	const MSG_ACERTADO = "Lo has acertado"
+	const MSG_MAYOR = "El numero buscado es mayor"
+	const MSG_MENOR = "El numero buscado es menor"
+	const NUMERO_BUSCADO = 5
+	
+	//Variables
+	
+	let numero = 0
+	
+	//Escribo el numero
+	
+	numero = prompt(MSG_PREGUNTA)
+	
+	if (numero == NUMERO_BUSCADO){
+	document.write(MSG_ACERTADO)
+	}else if (numero >= NUMERO_BUSCADO){
+	document.write(MSG_MAYOR)
+	}else if (numero <= NUMERO_BUSCADO){
+	document.write(MSG_MENOR)}
+	
+	
+  </script>
+</body>
+</html>

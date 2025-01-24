@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Operadores Booelanas</title>
+</head>
+<body>
+  <script>
+    //Constantes
+    const MSG = 'Escribe tu edad'
+    const CAT_INFANTE = 'Eres un infante'
+    const CAT_PRESCOLAR = 'Eres un prescolar'
+    const CAT_ESCOLAR = 'Eres un escolar'
+    const CAT_ADOLESCENTE = 'Eres un adolescente'
+    const CAT_ADULTO = 'Eres un adulto'
+	const CAT_JUBILADO = " Estoy en las ultimas "
+
+    const EDAD_INFANTE = 1
+    const EDAD_PRESCOLAR = 6
+    const EDAD_ESCOLAR = 12
+    const EDAD_ADOLESCENTE = 18
+	const EDAD_ADULTO = 65
+
+    //Variables
+
+    let edad = prompt(MSG);
+
+    if (edad <= EDAD_INFANTE) {
+      document.write(CAT_INFANTE)
+    }else if (edad <= EDAD_PRESCOLAR) {
+      document.write(CAT_PRESCOLAR)
+    }else if (edad <= EDAD_ESCOLAR) {
+      document.write(CAT_ESCOLAR)
+    }else if (edad <= EDAD_ADOLESCENTE) {
+      document.write(CAT_ADOLESCENTE)
+    }else if (edad <= EDAD_ADULTO){ //<=65
+      document.write(CAT_ADULTO)
+    }else{
+	  document.write(CAT_JUBILADO)
+	}
+
+  </script>
+</body>
+</html>

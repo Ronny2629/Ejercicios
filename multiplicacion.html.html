@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Saludo</title>
+</head>
+<body>
+  <script>
+    const MSG = "escribe un numero";
+	
+	//Variables
+    let num1;
+	let num2;
+	let producto=0;
+
+    //Leo el numero introducido por el usuario, le pregunto su nombre
+    num1 = prompt (MSG)
+	num2 = prompt (MSG)
+	
+	//multiplico los dos numeros
+	producto = num1 * num2;
+    
+    //Escribir "El resultado de multiplicar num1 por num2 es producto"
+    document.write(producto);
+	document.write(`El resultado de multiplicar ${num1} = ${num2} = ${producto}`); 
+
+  </script>
+</body>
+</html>
